@@ -23,7 +23,7 @@ const projects = [
 		name: 'Savy',
 		tag: 'projectsTagSchool',
 		technologies: ['Swift', 'Svelte'],
-		website: 'https://savy-eip.netlify.app',
+		website: 'https://savy-ai.com',
 		github: 'https://github.com/Savy-EIP',
 		backgroundColour: '#9149f6',
 		textColour: '#ffffff',
@@ -44,7 +44,7 @@ const projects = [
 		tag: 'projectsTagPersonal',
 		technologies: ['Svelte'],
 		website: 'https://deltort.net',
-		github: 'https://github.com/StEgo2103/egofolio',
+		github: 'https://github.com/LucaDeltort/egofolio',
 		backgroundColour: '#102ea0',
 		textColour: '#ffffff',
 		description: 'projectsDescriptionEgofolio'
@@ -54,7 +54,7 @@ const projects = [
 		tag: 'projectsTagPersonal',
 		technologies: ['Svelte'],
 		website: 'https://who-among-us.deltort.net',
-		github: 'https://github.com/StEgo2103/who-among-us',
+		github: 'https://github.com/LucaDeltort/who-among-us',
 		backgroundColour: '#ecf3f9',
 		textColour: '#578fc9',
 		description: 'projectsDescriptionWAU'
