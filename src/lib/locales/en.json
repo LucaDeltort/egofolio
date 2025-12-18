@@ -24,6 +24,7 @@
 	"projectsWebsite": "Website",
 	"projectsMore": "More",
 	"projectsLess": "Less",
+	"projectsDescriptionAlpine": "Alpine Telemetrics is a mobile application that connects to an Alpine car to record driving sessions. All the vehicle's data is then collected and analyzed.",
 	"projectsDescriptionReepair": "Reepair is a platform that connects professionals and individuals to give objects a second life. It promotes recycling and helps save money. The platform is divided into two sections: one for individuals and one for professionals. I worked on the professional section using Flutter.<br /><br />● Creating a calendar from scratch<br />● Mobile responsive<br />● MVVM architecture",
 	"projectsDescriptionTOP": "The Optimum Prod is a business management platform that helps track employee attendance and project profitability through precise monitoring of various criteria. I worked on the employee section using Flutter.<br /><br />● Camera management<br />● Offline mode<br />● MVVM architecture",
 	"projectsDescriptionSavy": "Savy is our EIP (Epitech Innovative Project), an AI-powered language learning solution. The application is a mobile solution that allows users to interact, both in writing and speaking, with Echos (AI personalities) supported by a personal assistant named Savy. I am responsible for the iOS app using Swift, the showcase website with Svelte, and the design with Figma.",

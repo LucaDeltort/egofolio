@@ -11,7 +11,7 @@
 	}
 </script>
 
-<div class="hd:w-3/4 mb-6 flex h-min w-full flex-col">
+<div class="mb-6 flex h-min w-full flex-col hd:w-3/4">
 	<div
 		class="flex h-10 items-center justify-between px-2"
 		style="background-color: {project.backgroundColour}; color: {project.textColour};"
@@ -21,10 +21,12 @@
 	</div>
 	<div class="px-2">
 		<div class="flex flex-col">
-			<div class="flex justify-between">
+			<div class="mt-1 flex justify-between">
 				<div class="flex">
 					<p class="mr-1 text-sm font-light">
-						{project.technologies.length > 1 ? $t('projectsTechnologies') : $t('projectsTechnology')} :
+						{project.technologies.length > 1
+							? $t('projectsTechnologies')
+							: $t('projectsTechnology')} :
 					</p>
 					{#each project.technologies as tech, index}
 						<p class="mr-1 text-sm font-light">
@@ -36,11 +38,20 @@
 					{/each}
 				</div>
 				<div class="flex">
+					{#if project.appstore !== ''}
+						<a
+							href={project.appstore}
+							target="_blank"
+							class="text-sm font-light underline underline-offset-8 transition-all duration-300 hover:underline-offset-1"
+						>
+							App Store
+						</a>
+					{/if}
 					{#if project.website !== ''}
 						<a
 							href={project.website}
 							target="_blank"
-							class="text-sm font-light underline underline-offset-8 transition-all duration-300 hover:underline-offset-1"
+							class="ml-2 text-sm font-light underline underline-offset-8 transition-all duration-300 hover:underline-offset-1"
 						>
 							{$t('projectsWebsite')}
 						</a>
@@ -60,7 +71,7 @@
 			<div class="">
 				<button
 					on:click={toggleDescription}
-					class="text-sm font-normal transition-all duration-300 hover:text-myBlueDark"
+					class="text-sm font-normal underline underline-offset-8 transition-all duration-300 hover:underline-offset-1"
 				>
 					{showDescription ? $t('projectsLess') : $t('projectsMore')}
 				</button>

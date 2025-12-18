@@ -26,7 +26,7 @@
 			<Linkedin />
 		</a>
 		<a
-			href="https://github.com/StEgo2103"
+			href="https://github.com/LucaDeltort"
 			target="_blank"
 			class="p-2 transition-all duration-300 hover:translate-x-1"><GitHub /></a
 		>
